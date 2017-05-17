@@ -17,7 +17,7 @@ namespace VRTK.Examples
         }
 
         // Use this for initialization
-        void Start()
+        void Awake()
         {
             bullet = transform.Find("bullet").gameObject;
             bullet.SetActive(false);
